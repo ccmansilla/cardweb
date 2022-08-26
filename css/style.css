@@ -106,7 +106,7 @@
 @media (min-width: 900px) { 
     .container {
         flex-direction: row;
-        padding: 180px;
+        padding: 100px;
     }
 
     .foto {
