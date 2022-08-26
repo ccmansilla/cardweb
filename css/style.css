@@ -31,12 +31,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px black solid;
-    border-right: 1px black solid;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border: 20px white solid;
+    border-bottom: none;
 }
 
 .archivo_foto {
@@ -59,12 +55,8 @@
     padding: 10%;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    border: 2px black solid; 
-    border-left: 1px black solid; 
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border: 20px white solid; 
+    border-top: none; 
 }
 
 .nombre {
@@ -121,9 +113,8 @@
         width: 50%;
         height: 100%;
         margin-bottom: 0;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 0px;
+        border-bottom: 20px white solid;
+        border-right: none;
     }
 
     .archivo_foto {
@@ -135,9 +126,8 @@
         height: 100%; 
         background: rgba(34,95,161,1);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(12, 76, 145) 100%);
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 0px; 
+        border-top: 20px white solid;
+        border-left: none;
     }
 
     .icon {
