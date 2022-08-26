@@ -7,17 +7,28 @@
 
 .container {
     width: 100%;
-    height: 100vh;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
     box-sizing: border-box;
     padding: 60px;
-    background: url(../img/fondo_container.jpg);
+    background: url(../img/fondo_container.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 700px;
+    border: 20px white solid;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .foto {
@@ -31,15 +42,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 10px white solid;
-    border-bottom: none;
+    padding: 30px;
 }
 
 .archivo_foto {
     display:block;
-    width:90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width:300px;
 }
 
 .texto {
@@ -52,24 +60,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10%;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    border: 10px white solid; 
-    border-top: none; 
+    padding: 30px;
 }
 
 .nombre {
     color: white;
     text-shadow: 2px 2px rgb(8, 8, 8);
-    margin-bottom: 5%;
 }
 
 .presentacion {
     font-weight: bolder;
     color: white;
     text-shadow: 2px 2px rgb(8, 8, 8);
-    margin-bottom: 5%;
 }
 
 .links {
@@ -103,22 +107,21 @@
     padding-bottom: 10px;
 }
 
-@media (min-width: 900px) { 
-    .container {
+@media screen and (min-width: 900px) { 
+    .card {
+        width: 700px;
+        height: 350px;
         flex-direction: row;
-        padding: 100px;
     }
 
     .foto {
         width: 50%;
         height: 100%;
         margin-bottom: 0;
-        border: 20px white solid;
-        border-right: none;
     }
 
     .archivo_foto {
-        width:100%;
+        width:300px;
     }
 
     .texto {
@@ -126,8 +129,6 @@
         height: 100%; 
         background: rgba(34,95,161,1);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(12, 76, 145) 100%);
-        border: 20px white solid;
-        border-left: none;
     }
 
     .icon {
