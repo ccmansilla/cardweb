@@ -15,6 +15,9 @@
     align-items: center;
     box-sizing: border-box;
     padding: 60px;
+    background: url(../img/fondo_container.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .foto {
@@ -29,11 +32,16 @@
     justify-content: center;
     align-items: center;
     border: 2px black solid;
+    border-right: 1px black solid;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .archivo_foto {
     display:block;
-    width:70%;
+    width:90%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -51,17 +59,24 @@
     padding: 10%;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    border: 2px black solid;
+    border: 2px black solid; 
+    border-left: 1px black solid; 
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nombre {
     color: rgb(247, 186, 55);
+    text-shadow: 2px 2px rgb(8, 8, 8);
     margin-bottom: 5%;
 }
 
 .presentacion {
     font-weight: bolder;
     color: rgb(247, 186, 55);
+    text-shadow: 2px 2px rgb(8, 8, 8);
     margin-bottom: 5%;
 }
 
@@ -83,6 +98,7 @@
 .link {
     text-align: left;
     color: white;
+    text-shadow: 2px 2px rgb(8, 8, 8);
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
@@ -105,6 +121,9 @@
         width: 50%;
         height: 100%;
         margin-bottom: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
     }
 
     .archivo_foto {
@@ -113,17 +132,12 @@
 
     .texto {
         width: 50%;
-        height: 100%;
+        height: 100%; 
         background: rgba(34,95,161,1);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(12, 76, 145) 100%);    
-    }
-
-    .nombre {
-        font-size: 1.2em;
-    }
-
-    .presentacion {
-        font-size: 1.2em;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(12, 76, 145) 100%);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 0px; 
     }
 
     .icon {
