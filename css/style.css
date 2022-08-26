@@ -7,24 +7,28 @@
 
 .container {
     width: 100%;
+    height: 100vh;
     min-height: 100vh;
-    background: url(../img/fondo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
+    box-sizing: border-box;
+    padding: 60px;
 }
 
 .foto {
     width: 100%;
-    height: 50vh;
+    height: 50%;
+    background: url(../img/fondo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px black solid;
 }
 
 .archivo_foto {
@@ -36,7 +40,7 @@
 
 .texto {
     width: 100%;
-    height: 50vh;
+    height: 50%;
     background: rgba(34,95,161,1);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(12, 76, 145) 100%);
     box-sizing: border-box;
@@ -47,8 +51,7 @@
     padding: 10%;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    border-top: 2px black solid;
-    border-left: none;
+    border: 2px black solid;
 }
 
 .nombre {
@@ -80,6 +83,7 @@
 .link {
     text-align: left;
     color: white;
+    text-decoration: none;
     display: block;
     margin-bottom: 10px;
     padding-left: 10px;
@@ -88,16 +92,18 @@
 .icon {
     display: block;
     width: 25px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 @media (min-width: 900px) { 
     .container {
         flex-direction: row;
+        padding: 200px;
     }
 
     .foto {
         width: 50%;
+        height: 100%;
         margin-bottom: 0;
     }
 
@@ -107,15 +113,13 @@
 
     .texto {
         width: 50%;
-        height: 100vh;
+        height: 100%;
         background: rgba(34,95,161,1);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(12, 76, 145) 100%);    
-        border-left: 2px black solid;
-        border-top:none;
     }
 
     .nombre {
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
 
     .presentacion {
@@ -124,5 +128,6 @@
 
     .icon {
         width: 40px;
+        padding-bottom: 3px;
     }
 }
