@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/fondo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.archivo_foto {
+    display:block;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.texto {
+    width: 100%;
+    height: auto;
+    background: rgba(34,95,161,1);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(12, 76, 145) 100%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10%;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    border-top: 2px black solid;
+    border-left: none;
+}
+
+.nombre {
+    color: rgb(241, 245, 241);
+    text-shadow: 2px 2px #060606;
+    margin-bottom: 5%;
+}
+
+.presentacion {
+    font-weight: bolder;
+    color: rgb(203, 141, 35);
+    text-shadow: 2px 2px #060606;
+    margin-bottom: 5%;
+}
+
+.link {
+    text-align: left;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.icon {
+    width: 40px;
+}
+
+@media (min-width: 900px) { 
+    .container {
+        flex-direction: row;
+    }
+    .foto {
+        width: 50%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 0;
+    }
+    .archivo_foto {
+        height: 400px;
+    }
+    .texto {
+        width: 50%;
+        height: 100vh;
+        background: rgba(34,95,161,1);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(12, 76, 145) 100%);    
+        border-left: 2px black solid;
+        border-top:none;
+    }
+    .nombre {
+        font-size: 1.6em;
+    }
+    .presentacion {
+        font-size: 1.4em;
+    }
+}
