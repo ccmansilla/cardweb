@@ -98,7 +98,7 @@
 @media (min-width: 900px) { 
     .container {
         flex-direction: row;
-        padding: 200px;
+        padding: 180px;
     }
 
     .foto {
@@ -119,15 +119,15 @@
     }
 
     .nombre {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .presentacion {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .icon {
-        width: 40px;
-        padding-bottom: 3px;
+        width: 30px;
+        padding-bottom: 10px;
     }
 }
