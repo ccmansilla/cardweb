@@ -110,7 +110,6 @@
 .icon {
     display: block;
     height: 25px;
-    padding-bottom: 10px;
 }
 
 @media screen and (min-width: 900px) { 
@@ -139,6 +138,5 @@
 
     .icon {
         height: 30px;
-        padding-bottom: 10px;
     }
 }
