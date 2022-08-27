@@ -116,11 +116,24 @@
     height: 25px;
 }
 
+@keyframes intro {
+    from {
+        margin-top: 10%;
+        border-color:white;
+    }
+    to {  
+        margin-top: 0;
+        border-color:rgb(255, 255, 255, 0.5);
+    }
+}
+
 @media screen and (min-width: 900px) { 
     .card {
         width: 700px;
         height: 350px;
         flex-direction: row;
+        animation-name: intro;
+        animation-duration: 4s;
     }
 
     .foto {
