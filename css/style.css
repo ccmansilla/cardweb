@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -60,23 +60,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Anton', sans-serif;
-    text-align: center;
     padding: 30px;
 }
 
 .nombre {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
     color: white;
     text-shadow: 2px 2px rgb(8, 8, 8);
+    margin-bottom: 20px;
+}
+
+.nombre h2{
+    color: rgb(109, 181, 223);
 }
 
 .presentacion {
-    font-weight: bolder;
-    color: rgb(109, 181, 223);
-    text-shadow: 2px 2px rgb(8, 8, 8);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    color: white;
+    border: 4px rgb(109, 181, 223) inset;
+}
+
+.presentacion h3 {
+    text-decoration: underline;
 }
 
 .links {
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +97,6 @@
 }
 
 .row {
-    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -92,18 +104,12 @@
 }
 
 .link {
-    text-align: left;
-    color: white;
-    text-shadow: 2px 2px rgb(8, 8, 8);
-    text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
     padding-left: 10px;
 }
 
 .icon {
     display: block;
-    width: 25px;
+    height: 25px;
     padding-bottom: 10px;
 }
 
@@ -132,7 +138,7 @@
     }
 
     .icon {
-        width: 30px;
+        height: 30px;
         padding-bottom: 10px;
     }
 }
