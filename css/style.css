@@ -79,13 +79,17 @@
     margin-bottom: 20px;
     padding: 10px;
     font-family: 'Roboto Slab', serif;
+    font-weight: bold;
     text-align: left;
-    color: white;
+    background-color: #a6b8cab9;
+    color: #062d76;
+    border-radius: 10px;
     border: 4px rgb(109, 181, 223) inset;
 }
 
 .presentacion h3 {
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 .links {
