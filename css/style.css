@@ -22,7 +22,7 @@
 .card {
     width: 350px;
     height: 700px;
-    border: 20px rgb(255, 255, 255, 0.8) solid;
+    border: 20px rgb(255, 255, 255, 0.5) solid;
     box-sizing: border-box;
     box-shadow: 20px 20px 10px black;
     display: flex;
@@ -72,7 +72,7 @@
 
 .presentacion {
     font-weight: bolder;
-    color: white;
+    color: rgb(109, 181, 223);
     text-shadow: 2px 2px rgb(8, 8, 8);
 }
 
