@@ -7,38 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Mansilla</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="foto">
-                <img class='archivo_foto' src="img/foto.png" alt="">
+    <div class="container-fluid d-flex justify-content-center align-items-center container__bg">
+        <div class="card d-flex flex-direction-column justify-content-center align-items-center">
+            <div class="card-img-top d-flex justify-content-center">
+                <img src="img/foto.png"  class="card__img" alt="foto card">
             </div>
-            <div class="texto">
-                <div class="nombre">
-                    <h1>Carlos Mansilla</h1>
-                    <h2>Web Developer</h2>
+            <div class="card-body">
+                <div class="card-title">
+                    <h2>Carlos Mansilla</h2>
+                    <h3>Web Developer</h3>
                 </div>
-                <div class="presentacion">
-                    <h3>Skills</h3>
+                <div class="card-text">
+                    <h4>Skills</h3>
                     <p>-FrontEnd: Html5, Css3, JS6</p>
                     <p>-BackEnd: Php, MySQL</p>
                 </div>
-                <div class="links">
-                    <div class="row">
-                        <a class="link" href="mailto:carloscmansilla@gmail.com"><img src="img/mail.png" alt="email"
-                                class="icon"></a>
-                        <a href="https://www.linkedin.com/in/carloscmansilla" class="link" target="_blank"><img
-                                src="img/linkedin.png" alt="linkedin" class="icon"></a>
-                        <a href="https://github.com/ccmansilla" class="link" target="_blank"><img src="img/github.png"
-                                alt="github" class="icon"></a>
-                    </div>
+                <div class="d-flex justify-content-center">
+                    <a class="link" href="mailto:carloscmansilla@gmail.com"><img src="img/mail.png" alt="email"
+                        class="icon"></a>
+                    <a href="https://www.linkedin.com/in/carloscmansilla" class="link" target="_blank"><img
+                        src="img/linkedin.png" alt="linkedin" class="icon"></a>
+                    <a href="https://github.com/ccmansilla" class="link" target="_blank"><img src="img/github.png"
+                        alt="github" class="icon"></a>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
